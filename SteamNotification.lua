@@ -121,7 +121,7 @@ function SteamNotification:Notify(title, desc, iconId)
 	game:GetService("Debris"):AddItem(sound, 5)
 
 	TweenService:Create(frame, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-		Position = UDim2.new(0.74737, 0, slotY(#notifs - 1), 0)
+	    Position = UDim2.new(0.74737, 0, slotY(0), 0)
 	}):Play()
 
 	task.delay(5, function()

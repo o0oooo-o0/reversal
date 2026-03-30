@@ -27,6 +27,7 @@ getgenv().reversal = true
 loadstring(game:HttpGet(
     game.GameId == 7326934954 and "https://raw.githubusercontent.com/o0oooo-o0/reversal/refs/heads/main/99NITF_Reversal.lua" -- 99n GAME ID
     or game.GameId == 66654135 and "https://raw.githubusercontent.com/o0oooo-o0/reversal/refs/heads/main/ReversalMM2.lua"
+    or game.GameId == 73885730 and "https://raw.githubusercontent.com/o0oooo-o0/reversal/refs/heads/main/ReversalPrisonLife.lua"
     or "https://raw.githubusercontent.com/o0oooo-o0/6hxForPrisonLife/refs/heads/master/unsupported.lua" -- kick if unsupported
 
 ))()

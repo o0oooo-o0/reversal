@@ -35,7 +35,7 @@ LeftGroupBox:AddButton("Verify", function()
 end)
 
 LeftGroupBox:AddButton("copy discord invite", function()
-    setclipboard("https://discord.gg/RhdAy7Dm2B")
+    setclipboard("https://discord.gg/XhFjq6rABd")
     Library:Notify("copied invite to clipboard!", 3)
 end)
 

@@ -28,10 +28,15 @@ LeftGroupBox:AddButton("Verify", function()
     if key == "reversalv2" then
         Library:Notify("correct key!", 3)
 
+        task.wait(0.2) -- opcional para que alcance a verse la notificación
+
+        Library:Unload() -- destruye toda la UI de Linoria
+
         loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/68137907928363172550"))()
     else
         Library:Notify("wrong", 3)
     end
+end)
 end)
 
 LeftGroupBox:AddButton("copy discord invite", function()

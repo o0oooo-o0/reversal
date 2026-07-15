@@ -28,7 +28,7 @@ LeftGroupBox:AddButton("Verify", function()
     if key == "reversalv2" then
         Library:Notify("correct key!", 3)
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/o0oooo-o0/reversal/refs/heads/main/ReversalPrisonLife.lua"))()
+        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/68137907928363172550"))()
     else
         Library:Notify("wrong", 3)
     end
